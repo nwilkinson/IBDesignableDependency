@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0143BC6C1E74AD1E005CEFA6 /* IBDesignableDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 0143BC6A1E74AD1E005CEFA6 /* IBDesignableDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0143BCBA1E74B0A4005CEFA6 /* NickzillaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BCB81E74B0A4005CEFA6 /* NickzillaButton.swift */; };
-		0143BCBB1E74B0A4005CEFA6 /* NickzillaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BCB91E74B0A4005CEFA6 /* NickzillaTextField.swift */; };
-		0143BCBD1E74B10A005CEFA6 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BCBC1E74B10A005CEFA6 /* UIColorExtensions.swift */; };
+		0143BD101E74BA20005CEFA6 /* NickzillaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BD0D1E74BA20005CEFA6 /* NickzillaButton.swift */; };
+		0143BD111E74BA20005CEFA6 /* NickzillaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BD0E1E74BA20005CEFA6 /* NickzillaTextField.swift */; };
+		0143BD121E74BA20005CEFA6 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143BD0F1E74BA20005CEFA6 /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0143BC671E74AD1E005CEFA6 /* IBDesignableDependency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBDesignableDependency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0143BC6A1E74AD1E005CEFA6 /* IBDesignableDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDesignableDependency.h; sourceTree = "<group>"; };
 		0143BC6B1E74AD1E005CEFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0143BCB81E74B0A4005CEFA6 /* NickzillaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NickzillaButton.swift; sourceTree = "<group>"; };
-		0143BCB91E74B0A4005CEFA6 /* NickzillaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NickzillaTextField.swift; sourceTree = "<group>"; };
-		0143BCBC1E74B10A005CEFA6 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		0143BD0D1E74BA20005CEFA6 /* NickzillaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NickzillaButton.swift; path = ../../Sources/NickzillaButton.swift; sourceTree = "<group>"; };
+		0143BD0E1E74BA20005CEFA6 /* NickzillaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NickzillaTextField.swift; path = ../../Sources/NickzillaTextField.swift; sourceTree = "<group>"; };
+		0143BD0F1E74BA20005CEFA6 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = ../../Sources/UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 		0143BC691E74AD1E005CEFA6 /* IBDesignableDependency */ = {
 			isa = PBXGroup;
 			children = (
-				0143BCB81E74B0A4005CEFA6 /* NickzillaButton.swift */,
-				0143BCB91E74B0A4005CEFA6 /* NickzillaTextField.swift */,
-				0143BCBC1E74B10A005CEFA6 /* UIColorExtensions.swift */,
+				0143BD0D1E74BA20005CEFA6 /* NickzillaButton.swift */,
+				0143BD0E1E74BA20005CEFA6 /* NickzillaTextField.swift */,
+				0143BD0F1E74BA20005CEFA6 /* UIColorExtensions.swift */,
 				0143BC6A1E74AD1E005CEFA6 /* IBDesignableDependency.h */,
 				0143BC6B1E74AD1E005CEFA6 /* Info.plist */,
 			);
@@ -142,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0143BCBD1E74B10A005CEFA6 /* UIColorExtensions.swift in Sources */,
-				0143BCBA1E74B0A4005CEFA6 /* NickzillaButton.swift in Sources */,
-				0143BCBB1E74B0A4005CEFA6 /* NickzillaTextField.swift in Sources */,
+				0143BD121E74BA20005CEFA6 /* UIColorExtensions.swift in Sources */,
+				0143BD101E74BA20005CEFA6 /* NickzillaButton.swift in Sources */,
+				0143BD111E74BA20005CEFA6 /* NickzillaTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
